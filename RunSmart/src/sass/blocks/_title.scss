@@ -1,0 +1,22 @@
+.title {
+  color: #0d0d0d;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  &_left {
+    line-height: 54px;
+    color: #fff;
+    font-size: 36px;
+    text-align: left;
+  }
+
+
+  @media(max-width: 575px){
+    font-size: 25px;
+  }
+  @media(max-width: 991px){
+    &_left {
+      text-align: center;
+    }
+  }
+}
